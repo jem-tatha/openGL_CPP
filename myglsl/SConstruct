@@ -1,0 +1,2 @@
+Program('myglsl', ['myglsl.cpp'],
+	CCFLAGS = '-std=c++11')
