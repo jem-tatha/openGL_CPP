@@ -1,0 +1,6 @@
+
+Program('triangle', ['triangle.cpp'],
+    LIBS = ['glfw', 'GL', 'gl3w'],
+    LIBPATH = ['/usr/lib', '/usr/local/lib', '/home/mmm/anonymous/mesa/lib'],
+    CCFLAGS = '-DHELLOSCONS',
+)
