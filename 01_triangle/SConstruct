@@ -1,6 +1,7 @@
 
-Program('triangle', ['triangle.cpp'],
+Program('triangle', ['triangle.cpp', '../lib/LoadShaders.cpp'],
     LIBS = ['glfw', 'GL', 'gl3w'],
     LIBPATH = ['/usr/lib', '/usr/local/lib', '/home/mmm/anonymous/mesa/lib'],
+    CPPPATH = ['/usr/include', '/home/mmm/anonymous/openGL/openGL_CPP/include'],
     CCFLAGS = '-DHELLOSCONS',
 )
